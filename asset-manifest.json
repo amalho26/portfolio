@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.1027a33c.chunk.css",
+    "main.js": "/portfolio/static/js/main.576f80bf.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.576f80bf.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.37da8305.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.37da8305.js.map",
+    "static/js/2.30ef1e97.chunk.js": "/portfolio/static/js/2.30ef1e97.chunk.js",
+    "static/js/2.30ef1e97.chunk.js.map": "/portfolio/static/js/2.30ef1e97.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.1027a33c.chunk.css.map": "/portfolio/static/css/main.1027a33c.chunk.css.map",
+    "static/js/2.30ef1e97.chunk.js.LICENSE.txt": "/portfolio/static/js/2.30ef1e97.chunk.js.LICENSE.txt",
+    "static/media/Arduino.15264c5d.png": "/portfolio/static/media/Arduino.15264c5d.png",
+    "static/media/ESM.35d1ed0a.jpg": "/portfolio/static/media/ESM.35d1ed0a.jpg",
+    "static/media/Resume.446ff03c.pdf": "/portfolio/static/media/Resume.446ff03c.pdf",
+    "static/media/Unity.a5ac9ece.png": "/portfolio/static/media/Unity.a5ac9ece.png",
+    "static/media/background.d8f9dad6.mp4": "/portfolio/static/media/background.d8f9dad6.mp4",
+    "static/media/coding.d2dfb656.jpg": "/portfolio/static/media/coding.d2dfb656.jpg",
+    "static/media/personalportfolio.92186b1f.png": "/portfolio/static/media/personalportfolio.92186b1f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.37da8305.js",
+    "static/js/2.30ef1e97.chunk.js",
+    "static/css/main.1027a33c.chunk.css",
+    "static/js/main.576f80bf.chunk.js"
+  ]
+}
