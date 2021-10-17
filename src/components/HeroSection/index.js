@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
-import Video from '../../videos/background.mp4';
+import Video from '../../videos/BackgroundData.mp4';
 import {Section, HeroBg, HeroContent, SectionText, VideoBg} from './HeroElements';
 
 const HeroSection = () => {
@@ -13,7 +13,7 @@ const HeroSection = () => {
             <HeroContent>
                 <SectionText>Hi!<br/>My name is Aikam</SectionText>
                 <ReactTypingEffect
-                    text={["Software Engineering Student", "Application Developer", "Entrepreneur"]}
+                    text={["Application Developer", "3rd year Software Engineering Student", "Open Source Enthusiast"]}
                     cursorRenderer={cursor => <h1>{cursor}</h1>}
                     style= {{color: "white"}}
                     speed="75"

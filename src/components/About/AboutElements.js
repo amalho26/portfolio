@@ -19,10 +19,9 @@ export const SectionTitle = styled.h2`
   @media screen and (max-width: 640px){
     font-size: 32px;
     line-height: 40px;
-    font-size: 28px;
-    line-height: 32px;
     padding: 16px 0 0;
     max-width: 100%;
+    margin-bottom: 100px;
   }
   `;
 
@@ -57,7 +56,7 @@ export const SectionTitle = styled.h2`
   overflow: hidden;
 
   @media screen and (max-width: 640px) {
-    width: calc(100vw - 32px);
+    width: 100%;
   }
 `;
 
