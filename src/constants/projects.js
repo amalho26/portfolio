@@ -25,7 +25,7 @@ export const projects = [
     {
       title: 'TV+DVD Start & Stop',
       bulletOne: '  Ranked 1st in class for most strategic approach by testing extensively in lab demonstrations & improving design to be more efficient using counter strategies',
-      bulletTwo: '  Programmed a remote buttons using Arduino (IDE) and various proprietary systems/tools to simplify controls',
+      bulletTwo: '  Programmed a remote button using Arduino (IDE) and various proprietary systems/tools to simplify controls',
       bulletThree: '  Met with clients to help make the design more efficient by taking personal client requirements into consideration',
       image: dvd,
       tags: ['Arduino', 'C', 'Quartus'],
