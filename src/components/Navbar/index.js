@@ -3,7 +3,7 @@ import {FaBars} from 'react-icons/fa';
 import { SiAcademia } from "react-icons/si";
 import {animateScroll as scroll} from 'react-scroll';
 import{Nav, NavbarContainer, MobileIcon, NavMenu, NavItem, NavLinks, Resume} from './NavbarElements';
-import pdf from '../../documents/resume.pdf'
+import pdf from '../../documents/Resume.pdf'
 
 const Navbar = ({toggle }) => {
 

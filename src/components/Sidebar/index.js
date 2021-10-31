@@ -1,6 +1,6 @@
 import React from 'react'
 import {SidebarContainer, Icon, CloseIcon,SidebarWrapper, SidebarMenu, SidebarLink, SideBtnWrap, Resume} from './SidebarElements'; 
-import pdf from '../../documents/resume.pdf'
+import pdf from '../../documents/Resume.pdf'
 
 const Sidebar = ({isOpen, toggle}) => {
     return (
