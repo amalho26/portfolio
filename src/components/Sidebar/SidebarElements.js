@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import {Link as LinkR} from 'react-router-dom';
 import {Link as LinkS} from 'react-scroll';
 import {FaTimes} from 'react-icons/fa';
 
@@ -47,6 +46,26 @@ export const SidebarMenu = styled.ul`
     }
 `;
 
+export const Resume = styled.div`
+    white-space: nowrap;
+    padding: 16px 64px;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    border: 2px solid #58cced;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+
+    &:hover {
+        transition: all 0.2s  ease-in-out;
+        background: #58cced;
+        color: #000;
+        border: none;
+        
+    }
+`
+
 export const SidebarLink = styled(LinkS)`
     display: flex;
     align-items: center;
@@ -68,24 +87,4 @@ export const SidebarLink = styled(LinkS)`
 export const SideBtnWrap = styled.div`
     display: flex;
     justify-content: center;
-`;
-
-export const SidebarRouter = styled(LinkR)`
-    white-space: nowrap;
-    padding: 16px 64px;
-    color: #fff;
-    font-size: 16px;
-    outline: none;
-    border: 2px solid #58cced;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-    text-decoration: none;
-
-    &:hover {
-        transition: all 0.2s  ease-in-out;
-        background: #58cced;
-        color: #000;
-        border: none;
-        
-    }
 `;

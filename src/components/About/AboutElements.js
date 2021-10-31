@@ -94,16 +94,3 @@ export const Img = styled.img`
     }
 
 `;
-
-
-   
-export const Row = styled.div`
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
-  grid-column-gap: 250px;
-   
-  @media (max-width: 1000px) {
-    grid-template-columns: 1fr;
-    grid-column-gap: 0;
-  }
-`;

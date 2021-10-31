@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import {Link as LinkS} from 'react-scroll';
-import {Link as LinkR} from 'react-router-dom';
 
 export const Nav = styled.nav`
     background: ${({ scrollNav })=> (scrollNav? '#000' : 'transparent')};
@@ -78,7 +77,7 @@ export const NavLinks = styled(LinkS)`
     }
 `;
 
-export const NavRouter = styled(LinkR)`
+export const Resume = styled.div`
     color: #fff;
     display: flex;
     align-items: center;
@@ -92,4 +91,5 @@ export const NavRouter = styled(LinkR)`
         transition: all 0.2s  ease-in-out;
         color: #58cced;
     }
-`;
+
+`

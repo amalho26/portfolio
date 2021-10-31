@@ -1,4 +1,4 @@
-import { SectionText, Line, Section, SocialMediaContainer, Container, Row, MediaRow, Heading1,Heading2} from './FooterElements';
+import { SectionText, Line, Section, SocialMediaContainer, Container, Row, MediaRow, Heading1, Heading2} from './FooterElements';
 import {AiFillLinkedin, AiFillGithub, AiOutlineMail} from 'react-icons/ai'
 
 const Footer = () => {

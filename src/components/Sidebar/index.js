@@ -1,5 +1,6 @@
 import React from 'react'
-import {SidebarContainer, Icon, CloseIcon,SidebarWrapper, SidebarMenu, SidebarLink, SideBtnWrap, SidebarRouter} from './SidebarElements'; 
+import {SidebarContainer, Icon, CloseIcon,SidebarWrapper, SidebarMenu, SidebarLink, SideBtnWrap, Resume} from './SidebarElements'; 
+import pdf from '../../documents/resume.pdf'
 
 const Sidebar = ({isOpen, toggle}) => {
     return (
@@ -15,7 +16,11 @@ const Sidebar = ({isOpen, toggle}) => {
                     <SidebarLink to='footer' onClick={toggle}>Contact</SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
-                    <SidebarRouter to='/resume'>Resume</SidebarRouter>
+                    <a href={pdf} without rel="noopener noreferrer" style={{textDecoration: 'none'}} target="_blank">
+                        <Resume>
+                            Resume
+                        </Resume>
+                    </a>
                 </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>

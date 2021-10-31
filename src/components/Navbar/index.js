@@ -2,8 +2,8 @@ import React, {useState, useEffect} from 'react';
 import {FaBars} from 'react-icons/fa';
 import { SiAcademia } from "react-icons/si";
 import {animateScroll as scroll} from 'react-scroll';
-import{Nav, NavbarContainer, MobileIcon, NavMenu, NavItem, NavLinks, NavRouter} from './NavbarElements';
-
+import{Nav, NavbarContainer, MobileIcon, NavMenu, NavItem, NavLinks, Resume} from './NavbarElements';
+import pdf from '../../documents/resume.pdf'
 
 const Navbar = ({toggle }) => {
 
@@ -76,7 +76,11 @@ const Navbar = ({toggle }) => {
                         </NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavRouter to='/resume'>Resume</NavRouter>
+                        <a href={pdf} without rel="noopener noreferrer" style={{textDecoration: 'none'}} target="_blank">
+                            <Resume>
+                                Resume
+                            </Resume>
+                        </a>
                     </NavItem>
                 </NavMenu>
             </NavbarContainer>
