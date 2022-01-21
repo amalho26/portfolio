@@ -14,7 +14,7 @@ import chatModal from '../images/chatboxModal.png';
 export const projects = [
     {
       title: 'Police Database Management System',
-      bulletOne: '  Within a group of 5, created a ER diagram for a chosen industry: Police Management System',
+      bulletOne: '  Within a group of 5, created an ER diagram for a chosen industry: Police Management System',
       bulletTwo: '  Transformed ER diagram to a relational schema, optimizing to the BCNF level',
       bulletThree: '  Designed a web interface using Node.JS showcasing various complex SQL functionalities including: triggers, transactions, views and procedures',
       imageModal: policeModal,

@@ -147,12 +147,15 @@ export default function Work (props) {
               </CardInfo>
               <CardInfo description><br></br>
                 <AiOutlineArrowRight size="20px" color="#58cced"/>
-                {projects[project].bulletTwo}
+                {projects[project].bulletTwo} 
               </CardInfo>
+              {projects[project].bulletThree ?
               <CardInfo description><br></br>
                 <AiOutlineArrowRight size="20px" color="#58cced"/>
                 {projects[project].bulletThree}
               </CardInfo>
+              : 
+              null}
               <div>
                  <TagList>
                   {projects[project].tags.map((t, i) => {
