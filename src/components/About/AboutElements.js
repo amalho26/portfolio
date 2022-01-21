@@ -55,9 +55,7 @@ export const SectionTitle = styled.h2`
   position: relative;
   overflow: hidden;
 
-  @media screen and (max-width: 640px) {
-    width: 100%;
-  }
+  
 `;
 
 export const Container = styled.div`

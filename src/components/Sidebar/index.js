@@ -2,7 +2,7 @@ import React from 'react'
 import {SidebarContainer, Icon, CloseIcon,SidebarWrapper, SidebarMenu, SidebarLink, SideBtnWrap, Resume} from './SidebarElements'; 
 import pdf from '../../documents/Resume.pdf'
 
-const Sidebar = ({isOpen, toggle}) => {
+export default function Sidebar ({isOpen, toggle}) {
     return (
         <SidebarContainer isOpen={isOpen} onClick={toggle}>
             <Icon onClick={toggle}>
@@ -26,5 +26,3 @@ const Sidebar = ({isOpen, toggle}) => {
         </SidebarContainer>
     )
 }
-
-export default Sidebar

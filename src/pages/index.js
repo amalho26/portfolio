@@ -7,7 +7,7 @@ import Projects from '../components/Projects';
 import Footer from '../components/Footer';
 import Work from '../components/Work';
 
-const Home = () => {
+export default function Home () {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggle = () => {
@@ -28,5 +28,3 @@ const Home = () => {
     
     )
 }
-
-export default Home;

@@ -3,7 +3,7 @@ import { work } from '../../constants/work';
 import { AiOutlineArrowRight } from "react-icons/ai";
 import {Section, SectionTitle, CardInfo, HeaderThree, Heading, Rect, ImgWrap, Img, GridContainer, TitleContent} from './WorkElements';
 
-const Work = () => {
+export default function Work () {
     return (
       <Section nopadding id="work">
         <SectionTitle main>Work Experience</SectionTitle>
@@ -38,6 +38,4 @@ const Work = () => {
       </Section>
   );
 }
-
-export default Work
 

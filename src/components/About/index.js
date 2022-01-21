@@ -2,7 +2,7 @@ import React from 'react';
 import Image from '../../images/coding.jpg';
 import {ImgWrap, Img, SectionTitle, Section, SectionText, Container} from './AboutElements';
 
-const About = () => {
+export default function About () {
     return ( 
         <Section nopadding id="about">
             <SectionTitle main>
@@ -18,10 +18,10 @@ const About = () => {
                     applications that could come handy in day to day tasks. <br/><br/>Some technologies I've worked with recently: 
                     <font color= "#58cced">
                         <br/>{'>'}   Ruby on Rails
-                        <br/>{'>'}   Javascript
-                        <br/>{'>'}   ReactJS
-                        <br/>{'>'}   TypeScript
-                        <br/>{'>'}   C++
+                        <br/>{'>'}   Node.JS
+                        <br/>{'>'}   MySQL
+                        <br/>{'>'}   AWS
+                        <br/>{'>'}   Java
                     </font>
                 </SectionText>
                 <ImgWrap>
@@ -32,5 +32,3 @@ const About = () => {
       
     )
 }
-
-export default About

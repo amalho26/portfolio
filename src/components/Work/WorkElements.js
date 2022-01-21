@@ -18,6 +18,11 @@ export const ImgWrap = styled.div`
   height: 20rem;
   overflow: hidden;
   border-radius: 50%;
+
+  @media screen and (max-width: 500px) {
+    width: 10rem;
+    height: 10rem;
+  }
 `;
 
 export const Img = styled.img`
@@ -71,6 +76,11 @@ export const HeaderThree = styled.h3`
   color: #9cc9e3;
   padding: .5rem 0;
   font-size: 3rem;
+
+  @media screen and (max-width: 500px) {
+    font-weight: 300;
+    font-size: 2rem;
+  }
 `;
 
 export const CardInfo = styled.p`

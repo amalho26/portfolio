@@ -5,7 +5,7 @@ import {animateScroll as scroll} from 'react-scroll';
 import{Nav, NavbarContainer, MobileIcon, NavMenu, NavItem, NavLinks, Resume} from './NavbarElements';
 import pdf from '../../documents/Resume.pdf'
 
-const Navbar = ({toggle }) => {
+export default function Navbar ({toggle }) {
 
     const [scrollNav, setScrollNav] = useState(false)
 
@@ -31,7 +31,7 @@ const Navbar = ({toggle }) => {
         <Nav scrollNav={scrollNav}>
             <NavbarContainer>
                 <NavLinks to='/' onClick={toggleHome}>
-                    <a style={{ display: 'flex', alignItems: 'center', color:"white" }}>
+                    <a style={{ display: 'flex', alignItems: 'center', color:"white" }} href="/">
                         <SiAcademia size="2rem" />
                     </a>
                 </NavLinks>
@@ -87,5 +87,3 @@ const Navbar = ({toggle }) => {
         </Nav>
     )
 }
-
-export default Navbar

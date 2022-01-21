@@ -1,7 +1,7 @@
 import { SectionText, Line, Section, SocialMediaContainer, Container, Row, MediaRow, Heading1, Heading2} from './FooterElements';
 import {AiFillLinkedin, AiFillGithub, AiOutlineMail} from 'react-icons/ai'
 
-const Footer = () => {
+export default function Footer () {
     return (
         <Section id ='footer'>
             <Line />
@@ -9,7 +9,7 @@ const Footer = () => {
                 <Row>
                     <Heading1>LET'S<br></br>CONNECT</Heading1>
                     <Heading2>Aikam Malhotra<br></br>
-                        <font size={5}>London, Ontario</font>
+                        <font size={5}>London Ontario</font>
                     </Heading2>
                 </Row>
                 <MediaRow> 
@@ -32,5 +32,3 @@ const Footer = () => {
         
     )
 }   
-
-export default Footer

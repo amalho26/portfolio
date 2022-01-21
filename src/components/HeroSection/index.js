@@ -3,7 +3,7 @@ import ReactTypingEffect from 'react-typing-effect';
 import Video from '../../videos/BackgroundData.mp4';
 import {Section, HeroBg, HeroContent, SectionText, VideoBg} from './HeroElements';
 
-const HeroSection = () => {
+export default function HeroSection () {
 
     return (
         <Section id ='/'>
@@ -23,5 +23,3 @@ const HeroSection = () => {
         </Section>
     )
 }
-
-export default HeroSection

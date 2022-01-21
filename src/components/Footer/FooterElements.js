@@ -46,6 +46,9 @@ export const Heading1 = styled.h1`
       text-align: center;
       font-size: 48px;
     } 
+    @media (max-width: 450px) {
+      font-size: 32px;
+    }
 
 
 `;

@@ -1,51 +1,69 @@
 import styled from 'styled-components';
 
-export const ImgWrap = styled.div`
-  width: 100%;
-  padding: 20px;
-  align-items: center;
-  @media screen and (max-width: 1200px) {
-    height: auto;
-  }
-`
+export const ImgWrap = styled.button`
+  margin: 50px 0 25px;
+  display: inline-block;
+  position: relative;
+  width: 20rem;
+  height: 20rem;
+  overflow: hidden;
+  border-radius: 50%;
+  cursor: pointer;
 
-export const Img = styled.img`
-  width: 100%;
-  margin: 0 0 10px 0;
-  padding-right: 0;  
-`
-
-export const GridContainer = styled.section`
-display: flex;
-flex-direction: row;
-
-padding: 1rem;
-place-items: center;
-column-gap: 2rem;
-row-gap: 2rem;
-@media screen and (max-width: 1200px) {
-  flex-direction: column;
-  padding: 2rem;
-  padding-bottom: 0;
-}
-
-`
-export const BlogCard = styled.div`
-  border-radius: 10px;
-  box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
-  text-align: center;
-  height: 1000px;
-  width: 100%;
-  @media screen and (max-width: 1200px) {
-    height: auto;
+  @media screen and (max-width: 400px) {
+    width: 15rem;
+    height: 15rem;
   }
 `;
+
+export const Img = styled.img`
+  width: auto;
+  height: 100%;
+`;
+
+export const ModalImgWrap = styled.div`
+width: 100%;
+padding: 20px;
+text-align: center;
+
+`;
+
+export const ModalImg = styled.img`
+width: 50%;
+height: auto; 
+
+@media screen and (max-width: 700px) {
+  width: 100%;
+}
+
+`;
+
+export const Quit = styled.div`
+  height: 25px;
+  width: 25px;
+  background-color: #58cced;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+`
+
+export const Rect = styled.div`
+  flex: 1;
+  padding: 1em;
+  text-align: center;
+  border-radius: 20px;
+  border: 2px solid #58cced;
+  max-width: 100%;
+  height: auto; 
+`
+
 export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
-`;
 
+`;
 
 export const HeaderThree = styled.h3`
   font-weight: 500;
@@ -53,52 +71,37 @@ export const HeaderThree = styled.h3`
   color: #9cc9e3;
   padding: .5rem 0;
   font-size: 3rem;
-`;
-
-export const Hr = styled.hr`
-  width: 50px;
-  height: 3px;
-  margin: 20px auto;
-  border: 0;
-  background: #d0bb57;
+  @media screen and (max-width: 1800px) {
+    font-size: 2.5rem;
+    font-weight: 300;
+  }
+  @media screen and (max-width: 700px) {
+    font-size: 2rem;
+  }
 `;
 
 export const CardInfo = styled.p`
   width: 100%;
   padding: 0 50px;
   color: #e4e6e7;
-  font-style: 2rem;
+  font-size: 1.2rem;
   line-height: 24px;
   text-align: left;
+  @media screen and (max-width: 1800px) {
+    font-size: 1rem;
+  
+  }
   @media screen and (max-width: 640px) {
     padding:.3rem
   
-}
+  }
 `;
 
-export const UtilityList = styled.a`
-  list-style-type: none;
-  padding: 0;
-  display: flex;
-  justify-content: space-around;
-  margin: 2.5rem 0;
-`;
-
-
-export const TagList = styled.ul`
-display: flex;
-justify-content: space-around;
-padding: 2rem;
-`
-export const Tag = styled.li`
-color: #9cc9e3;
-font-size: 1.2rem;
-`
 export const Section = styled.section`
   display: flex;
   background: #000000;
   flex-direction: column;
-  padding: 32px 48px 0px 48px;
+  padding: 32px 48px 0;
   margin: 0 auto;
   box-sizing: content-box;
   position: relative;
@@ -145,4 +148,79 @@ export const SectionTitle = styled.h2`
     padding: 16px 0 8px;
     max-width: 100%;
   }
-`
+`;
+
+export const BlogCard = styled.div`
+    
+    text-align: center;
+    width: 100%;
+
+    @media screen and (min-width: 1801px) {
+      margin-top: 200px;
+      height: 60em;
+      width: 80em;
+
+    }
+
+    @media screen and (max-width: 1800px) {
+      height: 30em;
+      width: 60em;
+
+    }
+
+    @media screen and (max-width: 1000px) {
+      height: 30em;
+      width: 40em;
+
+    }
+
+    @media screen and (max-width: 700px) {
+      height: 30em;
+      width: 30em;
+
+    }
+
+    @media screen and (max-width: 500px) {
+      height: 25em;
+      width: 15em;
+
+    }
+    
+  `;
+
+  export const Hr = styled.hr`
+    width: 50px;
+    height: 3px;
+    margin: 20px auto;
+    border: 0;
+    background: #d0bb57;
+  `;
+
+  export const TagList = styled.ul`
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+
+  `
+
+  export const UtilityList = styled.a`
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    margin: 2.5rem 0;
+  `;
+  
+  
+ 
+  export const Tag = styled.li`
+  color: #9cc9e3;
+  font-size: 1.2rem;
+  list-style-type: none;
+  @media screen and (max-width: 700px) {
+    font-size: 1rem;
+  }
+  @media screen and (max-width: 500px) {
+    font-size: 0.7rem;
+  }
+  `
