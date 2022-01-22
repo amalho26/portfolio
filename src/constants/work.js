@@ -3,11 +3,11 @@ import loblaws from '../images/loblaws.jpg';
 
 export const work = [
     {
-      position: 'Application Developer Internship',
+      position: 'Application Developer',
       company: 'Equestion Show Manager Inc.',
-      bulletOne: '  Worked with experienced team using Scrum Project Management to develop Full-Stack features for company\'s show management software',
-      bulletTwo: '  Addressed regular production bugs and improvements in existing Ruby application using Jira Software to prioritize requirements and utilizing Agile Methodology to rapidly iterate',
-      bulletThree: '  Used Rails Internationalization (I18n) library for interpolation and creating custom localizations to build application in English and French',
+      bulletOne: '  Working with an experienced team to develop Full-Stack features for company\'s show management software using Scrum Agile Methodology to rapidly iterate',
+      bulletTwo: '  Addressing regular production bugs and improvements in the existing Ruby application using Jira Software to prioritize requirements',
+      bulletThree: '  Using Rails Internationalization (I18n) library for interpolation and creating custom localizations to build application in English and French; initial release increased customer satisfaction by over 60%',
       image: esm,
       id: 0,
     },

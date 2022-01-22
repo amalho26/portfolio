@@ -13,7 +13,7 @@ export default function HeroSection () {
             <HeroContent>
                 <SectionText>Hi!<br/>My name is Aikam</SectionText>
                 <ReactTypingEffect
-                    text={["Application Developer", "3rd year Software Engineering Student", "Open Source Enthusiast"]}
+                    text={["Full-Stack Application Developer", "3rd year Software Engineering Student", "Open Source Enthusiast"]}
                     cursorRenderer={cursor => <h1>{cursor}</h1>}
                     style= {{color: "white"}}
                     speed="75"

@@ -25,7 +25,7 @@ export const projects = [
     },
     {
       title: 'Personal Portfolio',
-      bulletOne: '  Utilized React Scroll, React Router, React PDF, and other libraries to enhance the overall design of the website to achieve superior consistency across multiple platforms',
+      bulletOne: '  Utilized React Hooks, React Styled Components, React DOM, and other libraries to enhance the overall design of the website to achieve superior consistency across multiple platforms',
       bulletTwo: '  Reused various UI components to ensure codebase is simpler and development is faster',
       bulletThree: '  Conducted A/B testing to identify bugs & UI improvements',
       imageModal: personalPortfolioModal,
